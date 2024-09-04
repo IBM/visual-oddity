@@ -52,7 +52,7 @@ With default settings, the execution time on a laptop is approx. 3 hours.
 * `--seed=0` - select one specified random seed for generation. Default: generate for ten seeds: 0,1,...,9
 * `--riddle=12` - select one specified riddle ID for generation. Default: generate for all individual riddles: 0,1,...,44
 * `--size=3200` - number of examples per riddle and seed seen during training. Default: 3200. 
-**Note:** Training examples are split with 80/20 ratio between training and validation files, leading to 4/5\*X training and 1/5\*X validation examples. Additional test set of size 1/X is generated. Thus, in total 6/5\*X examples are generated.  
+**Note:** Training examples are split with 80/20 ratio between training and validation files, leading to 4/5\*X training and 1/5\*X validation examples. Additional test set of size 1/5\X is generated. Thus, in total 6/5\*X examples are generated.  
 
 
 ### Generation of combined dataset
